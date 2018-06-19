@@ -13,6 +13,7 @@
 		543B42F920D97E8F000D822E /* SeeFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 543B42F720D97E8F000D822E /* SeeFood.xcdatamodeld */; };
 		543B42FB20D97E90000D822E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543B42FA20D97E90000D822E /* Assets.xcassets */; };
 		543B42FE20D97E90000D822E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543B42FC20D97E90000D822E /* LaunchScreen.storyboard */; };
+		543B430620D97F98000D822E /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 543B430520D97F98000D822E /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		543B42FA20D97E90000D822E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		543B42FD20D97E90000D822E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		543B42FF20D97E90000D822E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543B430520D97F98000D822E /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				543B42F420D97E8F000D822E /* Main.storyboard */,
 				543B42FA20D97E90000D822E /* Assets.xcassets */,
 				543B42FC20D97E90000D822E /* LaunchScreen.storyboard */,
+				543B430520D97F98000D822E /* Inceptionv3.mlmodel */,
 				543B42FF20D97E90000D822E /* Info.plist */,
 				543B42F720D97E8F000D822E /* SeeFood.xcdatamodeld */,
 			);
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				543B42F320D97E8F000D822E /* ViewController.swift in Sources */,
+				543B430620D97F98000D822E /* Inceptionv3.mlmodel in Sources */,
 				543B42F920D97E8F000D822E /* SeeFood.xcdatamodeld in Sources */,
 				543B42F120D97E8F000D822E /* AppDelegate.swift in Sources */,
 			);
